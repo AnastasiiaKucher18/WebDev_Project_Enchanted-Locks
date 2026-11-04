@@ -1,15 +1,87 @@
 
-.main-button {
-    color:blueviolet;
+.header {
+     background-color:darksalmon;
+     text-align: center; 
+     padding: 20px; 
+     border-bottom: 3px solid #d4a373; 
+    }
+
+.logo { 
+    color: #6b705c; 
+    font-size: 32px;
 }
 
-.about-button {
-    color:aqua;
-}
-.we{
-    color: aqua;
+.subtitle { 
+    font-style: italic; 
+    color: #b5838d; 
+    margin-bottom: 15px; 
 }
 
-.body{
-    font-style: italic;
+    .nav-btn { 
+        display: inline-block; 
+        padding: 10px 20px; 
+        margin: 5px; 
+        color: #ffffff; 
+        background-color: #b5838d; 
+        text-decoration: none; 
+        border-radius: 20px; 
+        border: 2px solid #b5838d; 
+        transition: all 0.3s ease; 
+    }
+
+.nav-btn:hover {
+    background-color:#6b705c; 
+    color: #b5838d; 
+}
+
+.nav-btn.active { 
+    background-color: #6b705c; 
+    border-color: #6b705c; 
+}
+.container { 
+    width: 80%; 
+    max-width: 700px; 
+    margin: 40px auto; 
+}
+
+.info-card, .tips-card, .profile-card { 
+    background-color:darksalmon; 
+    padding: 25px; 
+    margin-bottom: 25px; 
+    border: 2px solid #e0e0e0; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+}
+
+.tips-list {
+     margin-left: 20px; 
+     margin-top: 10px; 
+    }
+
+.image-wrapper { 
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.profile-img {
+     width: 250px; 
+     height: 250px; 
+     object-fit: cover; 
+     border: 4px solid #b5838d; 
+     border-radius: 50%; 
+     padding: 5px; 
+     background-color: #ffffff; 
+    }
+
+.footer {
+     text-align: center; 
+     padding: 15px;
+    }
+
+* {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGdRfCBWXcWeOpANq4yJV-NCwz72fMrAiOZLYLVyBRhg&s=10);
+}
+
+.about {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGdRfCBWXcWeOpANq4yJV-NCwz72fMrAiOZLYLVyBRhg&s=10) ;
 }
